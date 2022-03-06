@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cliente</title>
+</head>
+<body>
+    <!-- Logo -->
+
+    <img src="https://www.zarla.com/images/zarla-sueo-pastelero-1x1-2400x2400-20210614-8x8gdj6k8w43m3vj7p99.png?crop=1:1,smart&width=250&dpr=2" alt="Perritos lindos" width="150px" height="150px">
+
+    <p>Dirección: Vía Lactea 1624 Sector Nebulosa <br>Teléfono: +52 8114944350 <br>Abierto de Lunes a Domingo de 9 AM a 6 PM</p>
+
+    <h1>Formato de Pedidos</h1>
+    
+    <!-- Datos Personales -->
+    <label for="Input1"> Nombre: </label><br>
+    <input type="text" id="Input1" name="Input1"><br><br>
+
+    <label for="correo1">Correo:</label><br>
+    <input type="email" id="correo1" name="correo1"><br><br>
+            
+    <label for="tel1">Teléfono:</label><br>
+    <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+    
+    <label for="comentarios1"> Comentarios / Descripción General: </label><br>
+    <textarea name="comentarios1" rows="10" cols="60"></textarea>
+
+    <hr>
+
+    <h2>Escoje tu sabor / sabores</h2><br>
+    <input type="radio" id="sabor1" name="sabores" value="Chocolate">
+    <label for="sabor1">Chocolate ......................................................  $120.  </label><br>
+    <input type="radio" id="sabor2" name="sabores" value="Vainillla">
+    <label for="sabor2">Vainillla ......................................................  $110.  </label><br>
+    <input type="radio" id="sabor3" name="sabores" value="Nuez">
+    <label for="sabor3">Nuez ...........................................................  $130.  </label><br>
+    <input type="radio" id="sabor4" name="sabores" value="Limon">
+    <label for="sabor4">Limon ..........................................................  $110.  </label><br><br>
+    <input type="radio" id="varios" name="sabores" value="varios">
+    <label for="varios">Sabores combinados (el precio será el promedio de los sabores)</label> <input type="text" name="comb" id="comb"><br><br>
+
+
+    <h2>Escoje tus adornos</h2><br>
+    <input type="checkbox" id="adorno1" name="adorno1" value="Frutas">
+    <label for="adorno1">Frutas ........................................................  $60.  </label><br>
+    <input type="checkbox" id="adorno2" name="adorno2" value="Crema Batida">
+    <label for="adorno2">Crema Batida ..................................................  $20.  </label><br>
+    <input type="checkbox" id="adorno3" name="adorno3" value="Galleta">
+    <label for="adorno3">Galleta .......................................................  $40.  </label><br>
+    <input type="checkbox" id="adorno4" name="adorno4" value="Chocolate">
+    <label for="adorno4">Piezas de Chocolate ...........................................  $50.  </label><br><br>
+
+    <hr>
+    
+    <h2>Selecciona la fecha y hora de entrega</h2><br>
+    <input type="datetime-local" id="fecha" name="fecha"><br><br>
+    
+  
+    
+    <h2>Escoje el color de tu pastel</h2>
+    <input type="color" id="color1" name="color1"><br><br><br><br>
+    
+    <input type="button" id="boton1" name="boton1" value="Confirmar" onclick="alert('Gracias, tu pedido ha sido realizado');"><br><br>
+    <br>
+    <br>
+    
+</body>
+</html>
